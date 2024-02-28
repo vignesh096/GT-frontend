@@ -1,0 +1,63 @@
+/* font-family: 'Lemon', serif; */
+/* font-family: 'Noto Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* --body-background: rgba(224, 238, 250, 0.300); */
+    --body-background: #fff
+}
+
+body {
+
+    --primary-font: 'Poppins', sans-serif;
+    font-family: var(--primary-font);
+    /* background-color: var(--body-background); */
+    min-height: 100vh;
+    background: #d1d7ff62;
+}
+
+#main {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.Link {
+    text-decoration: none;
+    color: black;
+}
+
+.chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.chart {
+    border: 1px solid rgba(0, 0, 0, 0.289);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: aliceblue;
+
+
+}
+
+.card-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 4rem;
+}

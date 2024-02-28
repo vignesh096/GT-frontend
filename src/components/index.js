@@ -1,0 +1,13 @@
+export { default as Navbar } from "./Navbar";
+export { default as TeacherLog } from "./Login/TeacherLog";
+export { default as StudentLog } from "./Login/StudentLog";
+export { default as About } from "./About";
+export { default as Card } from "./card/Card";
+export { default as ShowAllStd } from "./student/ShowAllStd";
+export { default as StdInfo } from "./student/StdInfo";
+export { default as NotFount } from "./NotFount";
+export { default as AllStdEdit } from "./card/AllStdEdit";
+export { default as CreateStudent } from "./student/CreateStudent";
+export { default as GTOverview } from "./GT/GTOverview";
+export { default as GrowthTracker } from "./GT/GrowthTracker";
+export { default as OverviewCard } from "./card/OverviewCard";
